@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_mail_chimp'
-  s.version     = '3.0.1'
+  s.version     = '3.1.0'
   s.summary     = 'Mail Chimp subscriptions for your Spree store using hominid'
   s.required_ruby_version = '>= 1.8.7'
 
@@ -16,6 +16,6 @@ Gem::Specification.new do |s|
 
   s.has_rdoc = true
 
-  s.add_dependency 'spree_core', '~> 1.0'
+  s.add_dependency 'spree_core', '~> 1.1.0'
   s.add_dependency 'hominid',    '~> 3.0.0'
 end
